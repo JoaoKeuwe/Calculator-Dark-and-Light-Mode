@@ -82,5 +82,16 @@ body {
     border-top: 1px solid #0009;
   }
   
+  
+  .calculator span:active {
+    filter: brightness(1.5);
+  }
+  
+  .calculator .clear {
+    grid-column: span 2;
+    width: 170px;
+    background: #f00;
+  }
+  
  
   
