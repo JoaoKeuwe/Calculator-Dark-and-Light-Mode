@@ -18,7 +18,6 @@ https://user-images.githubusercontent.com/91097315/201392848-366707ca-41a3-4430-
 
 
 
-
 Utilizei as seguintes Linguagens:
 - HTML
 - CSS
