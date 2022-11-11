@@ -45,7 +45,7 @@ body.light .container {
   position: relative;
   grid-column: span 4;
   height: 100px;
-  width: calc(100% -20px);
+  width: 370px;
   left: 10px;
   border: none;
   outline: none;
