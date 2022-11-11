@@ -1,4 +1,4 @@
-<h1 align='center' > Calculadora Dark And Light Mode
+<h1 align='center' > Calculadora Dark And Light Mode 🖩
 <h1/>
 
  <div>
