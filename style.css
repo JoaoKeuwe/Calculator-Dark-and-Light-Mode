@@ -244,4 +244,24 @@ body.light .btn strong:nth-child(2) {
     width: 65px;
     height: 65px;
   }
+
+ 
 }
+
+@media (max-width: 370px) {
+  .calculator .value {
+    width: 300px;
+  }
+  .container {
+    width: 350px;
+  }
+
+  .calculator span {
+    width: 55px;
+    height: 55px;
+    margin-right: auto;
+  }
+
+ 
+}
+
