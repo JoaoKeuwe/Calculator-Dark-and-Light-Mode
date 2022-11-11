@@ -220,7 +220,7 @@ body.light .btn strong:nth-child(2) {
 
 @media (max-width: 445px) {
   .calculator .value {
-    width: 340px;
+    width: 330px;
   }
   .container {
     width: 400px;
@@ -241,27 +241,39 @@ body.light .btn strong:nth-child(2) {
   }
 
   .calculator span {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
   }
-
- 
 }
 
 @media (max-width: 370px) {
   .calculator .value {
-    width: 300px;
+    width: 280px;
   }
   .container {
     width: 350px;
   }
 
   .calculator span {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     margin-right: auto;
+    margin-left: auto;
   }
 
- 
-}
+  body.light .calculator .clear,
+  .calculator .clear {
+    grid-column: span 3;
+    width: 180px;
+  }
 
+  .calculator .plus {
+    grid-row: span 3;
+    height: 140px;
+  }
+
+  .calculator .equal {
+    grid-column: span 3;
+    width: 200px;
+  }
+}
