@@ -208,3 +208,21 @@ body.light .btn strong:nth-child(1) {
 body.light .btn strong:nth-child(2) {
   display: block;
 }
+
+@media (max-width: 465px) {
+  .calculator .value {
+    width: 370px;
+  }
+  .container {
+    width: 450px;
+  
+  }
+}
+
+@media (max-width: 445px) {
+
+  .container {
+    width: 450px;
+  
+  }
+}
