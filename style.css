@@ -101,3 +101,29 @@ body {
   }
   
   
+  .calculator .equal {
+    background: #2196f3;
+  }
+  
+  .calculator .clear::before {
+    background: linear-gradient(90deg, #d20000, #ffffff5c);
+    border-left: 1px solid #0004;
+    border-bottom: 1px solid #0004;
+    border-top: 1px solid #0009;
+  }
+  
+  .calculator .equal::before {
+      background: linear-gradient(90deg, #1479c9, #ffffff5c);
+      border-left: 1px solid #fff4;
+      border-bottom: 1px solid #fff4;
+      border-top: 1px solid #fff4;
+    }
+  
+  .calculator span i {
+    position: relative;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+  
+  
