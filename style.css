@@ -216,7 +216,6 @@ body.light .btn strong:nth-child(2) {
   .container {
     width: 450px;
   }
-
 }
 
 @media (max-width: 445px) {
@@ -332,20 +331,13 @@ body.light .btn strong:nth-child(2) {
   }
 }
 
-@media (max-width: 415px){
- .btn{
-  position: absolute;
-    top:9px;
+@media (max-width: 415px) {
+  .btn {
+    position: absolute;
+    top: 9px;
     right: 10px;
     width: 80px;
     height: 40px;
     background-color: #797777;
- }
-
- .container {
- 
-  top: 30px;
+  }
 }
-}
-
-
