@@ -159,19 +159,16 @@ body.light .calculator .equal::before,
   text-transform: uppercase;
 }
 
-body.light .calculator span i
-{
-    color: #333;
+body.light .calculator span i {
+  color: #333;
 }
 
-body.light .calculator span.clear i
-{
-    color: #ffff;
+body.light .calculator span.clear i {
+  color: #ffff;
 }
 
-body.light .calculator span.equal i
-{
-    color: #ffff;
+body.light .calculator span.equal i {
+  color: #ffff;
 }
 
 .btn {
