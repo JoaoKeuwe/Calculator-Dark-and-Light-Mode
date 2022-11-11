@@ -215,14 +215,33 @@ body.light .btn strong:nth-child(2) {
   }
   .container {
     width: 450px;
-  
   }
 }
 
 @media (max-width: 445px) {
-
+  .calculator .value {
+    width: 340px;
+  }
   .container {
-    width: 450px;
-  
+    width: 400px;
+  }
+
+  .calculator span {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 405px) {
+  .calculator .value {
+    width: 320px;
+  }
+  .container {
+    width: 390px;
+  }
+
+  .calculator span {
+    width: 65px;
+    height: 65px;
   }
 }
