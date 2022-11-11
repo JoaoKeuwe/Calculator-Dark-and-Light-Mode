@@ -277,3 +277,36 @@ body.light .btn strong:nth-child(2) {
     width: 200px;
   }
 }
+
+@media (max-width: 375px) and (max-height: 670px) {
+  .calculator .value {
+    width: 230px;
+
+  }
+  .container {
+    width: 300px;
+  }
+
+  .calculator span {
+    width: 60px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  body.light .calculator .clear,
+  .calculator .clear {
+    grid-column: span 3;
+    width: 180px;
+  }
+
+  .calculator .plus {
+    grid-row: span 3;
+    height: 140px;
+  }
+
+  .calculator .equal {
+    grid-column: span 3;
+    width: 200px;
+  }
+}
