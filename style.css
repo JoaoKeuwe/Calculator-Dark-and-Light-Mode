@@ -13,6 +13,11 @@ body {
   background: #333;
 }
 
+body.light
+{
+    background-color: #f8f8f8;
+}
+
 .container {
   position: relative;
   min-width: 300px;
