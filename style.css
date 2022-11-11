@@ -49,5 +49,22 @@ body {
     font-size: 2em;
   }
   
-
+  .calculator span {
+    position: relative;
+    place-items: center;
+    display: grid;
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+      0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+  
+ 
   
