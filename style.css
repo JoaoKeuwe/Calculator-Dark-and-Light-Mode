@@ -335,11 +335,17 @@ body.light .btn strong:nth-child(2) {
 @media (max-width: 415px){
  .btn{
   position: absolute;
-    top:0px;
+    top:9px;
     right: 10px;
-    width: 50px;
+    width: 80px;
     height: 40px;
+    background-color: #797777;
  }
+
+ .container {
+ 
+  top: 30px;
+}
 }
 
 
