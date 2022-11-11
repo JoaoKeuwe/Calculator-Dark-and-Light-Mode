@@ -340,4 +340,9 @@ body.light .btn strong:nth-child(2) {
     height: 40px;
     background-color: #797777;
   }
+
+  .container {
+
+    top: 30px;
+  }
 }
