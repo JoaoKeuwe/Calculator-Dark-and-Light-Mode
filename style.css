@@ -95,6 +95,7 @@ body.light .calculator span::before {
 .calculator span:active {
   filter: brightness(1.5);
 }
+
 body.light .calculator span:active {
   filter: brightness(0.9);
 }
@@ -199,12 +200,15 @@ body.light .btn {
 .btn strong {
   display: none;
 }
+
 .btn strong:nth-child(1) {
   display: block;
 }
+
 body.light .btn strong:nth-child(1) {
   display: none;
 }
+
 body.light .btn strong:nth-child(2) {
   display: block;
 }
@@ -213,6 +217,7 @@ body.light .btn strong:nth-child(2) {
   .calculator .value {
     width: 370px;
   }
+
   .container {
     width: 450px;
   }
@@ -222,6 +227,7 @@ body.light .btn strong:nth-child(2) {
   .calculator .value {
     width: 330px;
   }
+
   .container {
     width: 400px;
   }
@@ -236,6 +242,7 @@ body.light .btn strong:nth-child(2) {
   .calculator .value {
     width: 320px;
   }
+
   .container {
     width: 390px;
   }
@@ -250,6 +257,7 @@ body.light .btn strong:nth-child(2) {
   .calculator .value {
     width: 280px;
   }
+
   .container {
     width: 350px;
   }
@@ -282,6 +290,7 @@ body.light .btn strong:nth-child(2) {
   .calculator .value {
     width: 230px;
   }
+
   .container {
     width: 300px;
   }
@@ -314,6 +323,7 @@ body.light .btn strong:nth-child(2) {
   .calculator .value {
     width: 230px;
   }
+
   .container {
     width: 300px;
   }
